@@ -1,0 +1,12 @@
+.flex_block {
+    display: flex;
+}
+.link_block {
+    margin: 0 auto;
+}
+.header_logo {
+    position: relative;
+    height: 60px;
+    top: 0px;
+    z-index: 100;
+}
