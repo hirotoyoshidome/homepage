@@ -98,3 +98,18 @@ header {
     width: auto;
     margin-bottom: 30px;
 }
+/* SNSロゴ */
+.content_sns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.content_sns_block {
+    margin: 10px;
+}
+.content_sns_logo {
+    height:70px;
+}
