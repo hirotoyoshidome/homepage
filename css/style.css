@@ -1,3 +1,9 @@
+/* ページ全体 */
+body {
+    font-size: 18px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
 /* ヘッダ */
 header {
     background-color: #EDEAE9;
@@ -22,6 +28,11 @@ header {
     text-decoration: none;
     font-weight: 600;
     color: #000000;
+}
+/* コンテンツ全体 */
+main {
+    width: 80%;
+    margin: 0 auto;
 }
 /* トップ */
 .content_top {
@@ -80,6 +91,7 @@ header {
 }
 .content_recruits_occupation {
     width: 80%;
+    margin: 10px auto;
     height: auto;
     display: flex;
 }
