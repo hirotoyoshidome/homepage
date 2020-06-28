@@ -125,8 +125,19 @@
 
       <div id="contacts" class="content_contacts">
         <h2>お問い合わせ</h2>
-        TODO 埋め込むかは要検討(独自フォームで改良できるみたいなのでそれで対応する)
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeN79G3yJGDgQxBX_Xq1KFd4ZfSq6urC_Bm3dr_gdyXx5LHwg/viewform?embedded=true" width="1280" height="300" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <form class="content_contacts_form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeN79G3yJGDgQxBX_Xq1KFd4ZfSq6urC_Bm3dr_gdyXx5LHwg/formResponse?embedded=true" method="POST">
+          <label class="label_block" for="email">メールアドレス(必須)</label>
+          <input class="form_block" type="email" id="email" name="emailAddress" /><br />
+          <label class="label_block" for="name">氏名(必須)</label>
+          <input class="form_block" type="text" id="name" name="entry.1093240693" /><br />
+          <label class="label_block" for="company">会社名(必須)</label>
+          <input class="form_block" type="text" id="company" name="entry.297708032" /><br />
+          <label class="label_block" for="subject">件名(任意)</label>
+          <input class="form_block" type="text" id="subject" name="entry.543110914" /><br />
+          <label class="label_block" for="content">お問い合わせ内容(必須)</label>
+          <textarea class="form_block" type="text" id="content" name="entry.1500932066"></textarea><br />
+          <input class="submit_block" type="submit" value="送信" />
+        </form>
       </div>
 
       <div class="content_sns">
