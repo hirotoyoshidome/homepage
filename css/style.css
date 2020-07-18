@@ -95,11 +95,11 @@ main {
 .content_brochures {
     height: 75vh;
     width: 100%;
-    margin-bottom: 30px;
+    background-color: rgba(217, 229, 255, 0.3);
 }
 .content_brochures_form {
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 /* メンバー */
 .content_members {
