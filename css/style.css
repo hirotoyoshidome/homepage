@@ -36,6 +36,11 @@ main {
     width: 80%;
     margin: 0 auto;
 }
+/* エラーメッセージ */
+.error_messsage {
+    color: red;
+    font-size: 12px;
+}
 /* トップ */
 .content_top {
     display: flex;
