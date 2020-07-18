@@ -37,6 +37,12 @@ main {
     width: 100vw;
     margin: 0px;
 }
+.section_title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
 /* エラーメッセージ */
 .error_messsage {
     color: red;
@@ -70,12 +76,20 @@ main {
 /* サービス */
 .content_services {
     height: 100vh;
+    background-color: rgba(230, 255, 233, 0.3);
 }
 .content_services_enne {
-    height: 50%;
+    height: 40%;
+    width: 80%;
+    margin: 0px auto;
 }
 .content_services_yaoya {
-    height: 50%;
+    height: 40%;
+    width: 80%;
+    margin: 0px auto;
+}
+.content_services_name {
+    font-weight: 700;
 }
 /* 資料請求 */
 .content_brochures {
