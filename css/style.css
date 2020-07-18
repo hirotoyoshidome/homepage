@@ -134,6 +134,7 @@ main {
 .content_recruits {
     width: 100%;
     height: 100vh;
+    background-color: rgba(238, 232, 170, 0.3);
 }
 .content_recruits_occupation {
     width: 80%;
@@ -153,9 +154,10 @@ main {
 }
 /* お問い合わせ */
 .content_contacts {
-    width: auto;
+    width: 100%;
     height: auto;
-    margin-bottom: 30px;
+    background-color: rgba(220, 220, 220, 0.3);
+    padding-bottom: 30px;
 }
 .content_contacts_form {
     width: 80%;
