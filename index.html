@@ -45,7 +45,7 @@
           <a href="#services" class="header_link">サービス紹介</a>
         </div>
         <div class="link_block">
-          <a href="#brochures" class="header_link">資料請求</a>
+          <a href="#" class="modal_open header_link">資料請求</a>
         </div>
         <div class="link_block">
           <a href="#members" class="header_link">メンバー紹介</a>
@@ -67,7 +67,7 @@
             </div>
           </div>
           <div class="content_top_slide_child">
-            <img class="child_img" src="./img/mission.jpg" alt="Vision" />
+            <img class="child_img" src="./img/vision.jpg" alt="Vision" />
             <div class="child_word">
               Vision<br />
               農業、酪農、漁業の生産者たちがサービスを使えば全てが事足りる<br />
@@ -109,29 +109,32 @@
         </div>
       </div>
 
-      <div id="brochures" class="content_brochures">
-        <p class="section_title">資料請求</p>
-        <form class="content_brochures_form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdB7rsEtmD5Osf0PQ5skhpcO92cAMMHrS5Kb2Hn1T1fojmzWg/formResponse" method="POST">
-          <label class="label_block" for="_email">メールアドレス(必須)</label>
-          <input class="form_block" type="email" id="_email" name="emailAddress" /><br />
-          <p class="error_messsage" id="error__email"></p>
-          <label class="label_block" for="_name">氏名(必須)</label>
-          <input class="form_block" type="text" id="_name" name="entry.1884265043" /><br />
-          <p class="error_messsage" id="error__name"></p>
-          <label class="label_block" for="_occupation">ご職業（任意）</label>
-          <select class="form_block" name="entry.1599215589" id="_occupation">
-            <option value="">選択してください</option>
-            <option value="農家様（個人経営）">農家様（個人経営）</option>
-            <option value="農家様（法人経営）">農家様（法人経営）</option>
-            <option value="その他生産者様（個人経営）">その他生産者様（個人経営）</option>
-            <option value="その他生産者様（法人経営）">その他生産者様（法人経営）</option>
-            <option value="消費者様（飲食店・卸売・小売業等）">消費者様（飲食店・卸売・小売業等）</option>
-            <option value="__other_option__">その他</option>
-          </select><br />
-          <label class="label_block" for="_comment">その他コメント等(任意)</label>
-          <textarea class="form_block" type="text" id="_comment" name="entry.513669972"></textarea><br />
-          <input class="submit_block" id="brochures_submit" type="submit" value="送信" />
-        </form>
+      <div id="brochures" class="content_brochures modal">
+        <div class="modal_bg modal_close"></div>
+        <div class="modal_content">
+          <p class="section_title">資料請求</p>
+          <form class="content_brochures_form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdB7rsEtmD5Osf0PQ5skhpcO92cAMMHrS5Kb2Hn1T1fojmzWg/formResponse" method="POST">
+            <label class="label_block" for="_email">メールアドレス(必須)</label>
+            <input class="form_block" type="email" id="_email" name="emailAddress" /><br />
+            <p class="error_messsage" id="error__email"></p>
+            <label class="label_block" for="_name">氏名(必須)</label>
+            <input class="form_block" type="text" id="_name" name="entry.1884265043" /><br />
+            <p class="error_messsage" id="error__name"></p>
+            <label class="label_block" for="_occupation">ご職業（任意）</label>
+            <select class="form_block" name="entry.1599215589" id="_occupation">
+              <option value="">選択してください</option>
+              <option value="農家様（個人経営）">農家様（個人経営）</option>
+              <option value="農家様（法人経営）">農家様（法人経営）</option>
+              <option value="その他生産者様（個人経営）">その他生産者様（個人経営）</option>
+              <option value="その他生産者様（法人経営）">その他生産者様（法人経営）</option>
+              <option value="消費者様（飲食店・卸売・小売業等）">消費者様（飲食店・卸売・小売業等）</option>
+              <option value="__other_option__">その他</option>
+            </select><br />
+            <label class="label_block" for="_comment">その他コメント等(任意)</label>
+            <textarea class="form_block" type="text" id="_comment" name="entry.513669972"></textarea><br />
+            <input class="submit_block" id="brochures_submit" type="submit" value="送信" />
+          </form>
+        </div>
       </div>
 
       <div id="members" class="content_members">

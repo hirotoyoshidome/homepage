@@ -93,11 +93,35 @@ main {
 .content_services_name {
     font-weight: 700;
 }
+/* 資料請求モーダル */
+.modal {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+}
+.modal_bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal_content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
 /* 資料請求 */
 .content_brochures {
     height: 75vh;
     width: 100%;
-    background-color: rgba(217, 229, 255, 0.3);
+    /* background-color: rgba(217, 229, 255, 0.3); */
 }
 .content_brochures_form {
     width: 80%;

@@ -117,3 +117,13 @@ $("#brochures_submit").click(function(){
     }
     return true;
 });
+
+// 資料請求モーダル
+$(".modal_open").click(function(){
+    $('.modal').fadeIn();
+    return false;
+});
+$('.modal_close').click(function(){
+    $('.modal').fadeOut();
+    return false;
+});
