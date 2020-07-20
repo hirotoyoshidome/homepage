@@ -40,8 +40,8 @@ main {
 .section_title {
     text-align: center;
     padding-top: 20px;
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 37px;
+    font-weight: 900;
     margin: 0px;
 }
 /* エラーメッセージ */
@@ -76,22 +76,28 @@ main {
 }
 /* サービス */
 .content_services {
-    height: 100vh;
-    background-color: rgba(230, 255, 233, 0.3);
+    height: 150vh;
+    /* background-color: rgba(230, 255, 233, 0.3); */
     padding-top: 30px;
 }
 .content_services_enne {
     height: 40%;
-    width: 80%;
-    margin: 0px auto;
+    width: 70%;
+    margin: 0px auto 0px 40px;
+    padding-top: 20px;
+    background-color: rgba(230, 255, 233, 0.3);
 }
 .content_services_yaoya {
     height: 40%;
-    width: 80%;
-    margin: 0px auto;
+    width: 70%;
+    padding-top: 10px;
+    margin: 0px 40px 0px auto;
+    background-color: rgba(230, 255, 233, 0.3);
 }
 .content_services_name {
     font-weight: 700;
+    font-size: 24px;
+    text-align: center;
 }
 /* 資料請求モーダル */
 .modal {
@@ -109,19 +115,19 @@ main {
     width: 100%;
 }
 .modal_content{
-    background: #fff;
+    background: #ffffff;
     left: 50%;
     padding: 40px;
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
     width: 60%;
+    height: 100%;
 }
 /* 資料請求 */
 .content_brochures {
     height: 75vh;
     width: 100%;
-    /* background-color: rgba(217, 229, 255, 0.3); */
 }
 .content_brochures_form {
     width: 80%;
