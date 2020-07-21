@@ -204,21 +204,36 @@
       <div id="contacts" class="content_contacts">
         <p class="section_title">お問い合わせ</p>
         <form class="content_contacts_form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeN79G3yJGDgQxBX_Xq1KFd4ZfSq6urC_Bm3dr_gdyXx5LHwg/formResponse?embedded=true" method="POST">
-          <label class="label_block" for="email">メールアドレス(必須)</label>
-          <input class="form_block" type="email" id="email" name="emailAddress" /><br />
-          <p class="error_messsage" id="error_email"></p>
-          <label class="label_block" for="name">氏名(必須)</label>
-          <input class="form_block" type="text" id="name" name="entry.1093240693" /><br />
-          <p class="error_messsage" id="error_name"></p>
-          <label class="label_block" for="company">会社名(必須)</label>
-          <input class="form_block" type="text" id="company" name="entry.297708032" /><br />
-          <p class="error_messsage" id="error_company"></p>
-          <label class="label_block" for="subject">件名(任意)</label>
-          <input class="form_block" type="text" id="subject" name="entry.543110914" /><br />
-          <label class="label_block" for="content">お問い合わせ内容(必須)</label>
-          <textarea class="form_block" type="text" id="content" name="entry.1500932066"></textarea><br />
-          <p class="error_messsage" id="error_content"></p>
-          <input class="submit_block" id="contact_submit" type="submit" value="送信" />
+          <div class="contacts_form">
+            <input class="contacts_input_text" type="email" id="email" name="emailAddress" />
+            <label>メールアドレス*</label>
+            <span class="focus_line"></span>
+            <p class="error_messsage" id="error_email"></p>
+          </div>
+          <div class="contacts_form">
+            <input class="contacts_input_text" type="text" id="name" name="entry.1093240693" />
+            <label>氏名*</label>
+            <span class="focus_line"></span>
+            <p class="error_messsage" id="error_name"></p>
+          </div>
+          <div class="contacts_form">
+            <input class="contacts_input_text" type="text" id="company" name="entry.297708032" />
+            <label>会社名*</label>
+            <span class="focus_line"></span>
+            <p class="error_messsage" id="error_company"></p>
+          </div>
+          <div class="contacts_form">
+            <input class="contacts_input_text" type="text" id="subject" name="entry.543110914" />
+            <label>件名</label>
+            <span class="focus_line"></span>
+          </div>
+          <div class="contacts_form">
+            <textarea class="contacts_input_text" id="content" name="entry.1500932066"></textarea>
+            <label>お問い合わせ内容*</label>
+            <span class="focus_line"></span>
+            <p class="error_messsage" id="error_content"></p>
+          </div>
+          <input type="submit" value="送信する" id="contact_submit" class="contacts_submit" />
         </form>
       </div>
 
