@@ -214,10 +214,6 @@ main {
     height: 100%;
 }
 /* 資料請求 */
-.content_brochures {
-    height: 75vh;
-    width: 100%;
-}
 .content_brochures_form {
     width: 80%;
     margin: 0px auto;
