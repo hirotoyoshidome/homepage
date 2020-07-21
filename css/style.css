@@ -50,7 +50,19 @@ main {
 	width: 60%;
 	margin: 50px auto;
 }
+.brochures_form {
+    position: relative;
+	width: 60%;
+	margin: 50px auto;
+}
 .contacts_form input[type='text'] {
+	box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+	letter-spacing: 1px;
+	padding-left: 6em;
+}
+.brochures_form input[type='text'] {
 	box-sizing: border-box;
     width: 100%;
     height: 50px;
@@ -64,6 +76,13 @@ main {
 	letter-spacing: 1px;
 	padding-left: 6em;
 }
+.brochures_form input[type='email'] {
+	box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+	letter-spacing: 1px;
+	padding-left: 6em;
+}
 .contacts_form textarea {
 	box-sizing: border-box;
     width: 100%;
@@ -71,16 +90,48 @@ main {
 	letter-spacing: 1px;
 	padding-left: 6em;
 }
+.brochures_form textarea {
+	box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+	letter-spacing: 1px;
+	padding-left: 6em;
+}
+.brochures_form select {
+	box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+	letter-spacing: 1px;
+	padding-left: 6em;
+}
 .contacts_form input[type='text']:focus {
+	outline: none;
+}
+.brochures_form input[type='text']:focus {
 	outline: none;
 }
 .contacts_form input[type='email']:focus {
 	outline: none;
 }
+.brochures_form input[type='email']:focus {
+	outline: none;
+}
 .contacts_form textarea:focus {
 	outline: none;
 }
+.brochures_form textarea:focus {
+	outline: none;
+}
+.brochures_form select:focus {
+	outline: none;
+}
 .contacts_input_text {
+    padding: 4px 0px;
+	border: 0;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+}
+.brochures_input_text {
     padding: 4px 0px;
 	border: 0;
 	border-bottom: 1px solid #000000;
@@ -95,7 +146,20 @@ main {
 	transition: 0.4s;
 	background-color: #008000;
 }
+.brochures_input_text ~ .focus_line {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	transition: 0.4s;
+	background-color: #008000;
+}
 .contacts_input_text:focus ~ .focus_line,.contacts_form.contacts_input_text ~ .focus_line {
+	width: 100%;
+	transition: 0.4s;
+}
+.brochures_input_text:focus ~ .focus_line,.brochures_form.brochures_input_text ~ .focus_line {
 	width: 100%;
 	transition: 0.4s;
 }
@@ -110,7 +174,24 @@ main {
     color: #aaaaaa;
     font-size: 14px;
 }
+.brochures_input_text ~ label {
+	position: absolute;
+	z-index: -1;
+	top: 2px;
+	left: 0px;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+    color: #aaaaaa;
+    font-size: 14px;
+}
 .contacts_input_text:focus ~ label, .contacts_form.contacts_input_text ~ label {
+	font-size: 12px;
+	top: -14px;
+	transition: 0.3s;
+	color: #6B8E23;
+}
+.brochures_input_text:focus ~ label, .brochures_form.brochures_input_text ~ label {
 	font-size: 12px;
 	top: -14px;
 	transition: 0.3s;
@@ -130,7 +211,24 @@ main {
     transition: all 0.5s;
     margin: 0px auto;
 }
+.brochures_submit {
+    display:block;
+    width: 250px;
+    height:50px;
+    line-height: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #008000;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0px auto;
+}
 .contacts_submit:hover{
+    background-color: #6B8E23;
+}
+.brochures_submit:hover{
     background-color: #6B8E23;
 }
 /* エラーメッセージ */
