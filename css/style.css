@@ -272,14 +272,14 @@ main {
     width: 70%;
     margin: 0px auto 0px 40px;
     padding-top: 20px;
-    background-color: rgba(230, 255, 233, 0.3);
+    border: double 5px grey;
 }
 .content_services_yaoya {
     height: 40%;
     width: 70%;
     padding-top: 10px;
-    margin: 0px 40px 0px auto;
-    background-color: rgba(230, 255, 233, 0.3);
+    margin: 10px 40px 0px auto;
+    border: double 5px grey;
 }
 .content_services_name {
     font-weight: 700;
