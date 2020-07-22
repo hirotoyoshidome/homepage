@@ -319,27 +319,32 @@ main {
 /* メンバー */
 .content_members {
     width: 100%;
-    max-height: 200vh;
+    max-height: 100vh;
     background-color: rgba(225, 201, 201, 0.2);
     padding-bottom: 20px;
 }
-.content_members_block {
+.content_members_img_flex {
     display: flex;
-    width: 80%;
-    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.content_members_block {
+    width: 100%;
+    margin: 10px 0px;
 }
 .content_members_img_block {
-    margin: 0 20px;
-    width: 20%;
-    height: auto;
+    margin: 0 50px;
 }
 .members_img {
-    width: auto;
+    border-radius: 50%;
+    width: 200px;
     height: 200px;
 }
 .content_members_intro_block {
     font-weight: 600;
     width: 80%;
+    margin: 0px 10%;
 }
 .members_name {
     font-weight: 700;

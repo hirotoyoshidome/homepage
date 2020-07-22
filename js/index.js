@@ -19,6 +19,19 @@ $(document).ready(function(){
         swipe: true,
         centerMode: true,
     });
+    $(".content_members_slide").slick({
+        accessibility: true,
+        autoplay: true,
+        dots: true,
+        slidesToShow: 1,
+        autoplaySpeed: 5000,
+        speed: 500,
+        infinite: true,
+        cssEase: 'linear',
+        arrows: true,
+        swipe: true,
+        centerMode: true,
+    });
 });
 
 // ヘッダの動き
