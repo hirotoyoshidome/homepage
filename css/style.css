@@ -274,19 +274,26 @@ main {
     width: 70%;
     margin: 0px auto 0px 40px;
     padding-top: 20px;
-    border: double 5px grey;
+    background-color: #ffffff;
+    border-radius: 10%;
 }
 .content_services_yaoya {
-    height: 40%;
+    height: 45%;
     width: 70%;
     padding-top: 10px;
     margin: 10px 40px 0px auto;
-    border: double 5px grey;
+    background-color: #ffffff;
+    border-radius: 10%;
 }
 .content_services_name {
     font-weight: 700;
     font-size: 24px;
     text-align: center;
+    color: #008000;
+}
+.content_services_intro {
+    width: 90%;
+    margin: 0px auto;
 }
 /* 資料請求モーダル */
 .modal {
@@ -369,6 +376,7 @@ main {
     font-size: 20px;
     font-weight: 700;
     margin: 10px 20px;
+    color: #008000; 
 }
 .content_recruits_occupation_detail {
     width: 80%;
