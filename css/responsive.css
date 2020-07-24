@@ -3,6 +3,12 @@
 
 } */
 @media screen and (min-width:481px) and (max-width:780px){
+    .responsive_none {
+        display: none;
+    }
+    .section_title {
+        font-size: 32px;
+    }
     .header_link {
         font-weight: 600;
         font-size: 14px;
@@ -30,6 +36,15 @@
         font-size: 16px;
     }
     .content_members_intro_block {
+        font-size: 14px;
+    }
+    .content_recruits_occupation_name {
+        font-size: 15px;
+    }
+    .content_recruits_occupation_detail {
+        font-size: 14px;
+    }
+    .content_recruits_occupation_caution {
         font-size: 14px;
     }
 }
@@ -68,5 +83,14 @@
     }
     .content_members_intro_block {
         font-size: 11px;
+    }
+    .content_recruits_occupation_name {
+        font-size: 14px;
+    }
+    .content_recruits_occupation_detail {
+        font-size: 12px;
+    }
+    .content_recruits_occupation_caution {
+        font-size: 12px;
     }
 }
