@@ -19,6 +19,19 @@
     .brochures_select {
         font-size: 11px;
     }
+    .members_img {
+        width: 130px;
+        height: 130px;
+    }
+    .content_members_img_block {
+        margin: 0 18px;
+    }
+    .members_name {
+        font-size: 16px;
+    }
+    .content_members_intro_block {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:480px){
     .responsive_none {
@@ -42,5 +55,18 @@
     }
     .brochures_select {
         font-size: 10px;
+    }
+    .members_img {
+        width: 100px;
+        height: 100px;
+    }
+    .content_members_img_block {
+        margin: 0 5px;
+    }
+    .members_name {
+        font-size: 14px;
+    }
+    .content_members_intro_block {
+        font-size: 11px;
     }
 }
