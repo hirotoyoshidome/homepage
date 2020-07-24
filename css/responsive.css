@@ -13,10 +13,19 @@
     .content_services_intro {
         font-size: 15px;
     }
+    .modal_content {
+        width: 80%;
+    }
+    .brochures_select {
+        font-size: 11px;
+    }
 }
 @media screen and (max-width:480px){
     .responsive_none {
         display: none;
+    }
+    .section_title {
+        font-size: 30px;
     }
     .header_link {
         font-weight: 900;
@@ -27,5 +36,11 @@
     }
     .content_services_intro {
         font-size: 12px;
+    }
+    .modal_content {
+        width: 100%;
+    }
+    .brochures_select {
+        font-size: 10px;
     }
 }
