@@ -252,15 +252,17 @@ main {
     max-height: 100vh;
 }
 .child_img {
-    width: 100%;
+    height: 100%;
 }
 .child_word {
     position: absolute;
+    width: 70%;
     top: 30%;
-    left: 20%;
+    left: 17%;
     color: #ffffff;
     font-size: 27px;
     font-weight: 900;
+    word-wrap: normal;
     z-index: 100;
 }
 /* サービス */
