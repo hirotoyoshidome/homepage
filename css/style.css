@@ -42,7 +42,7 @@ main {
     padding-top: 20px;
     font-size: 37px;
     font-weight: 900;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
 }
 /* フォーム */
 .contacts_form {
@@ -296,6 +296,7 @@ main {
 .content_services_intro {
     width: 90%;
     margin: 0px auto;
+    font-size: 17px;
 }
 /* 資料請求モーダル */
 .modal {
