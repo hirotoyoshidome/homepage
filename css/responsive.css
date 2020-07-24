@@ -101,4 +101,7 @@
         width: 150px;
         height: 35px;
     }
+    .content_recruits_occupation_name_small {
+        font-size: 10px;
+    }
 }
