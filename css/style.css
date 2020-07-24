@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     margin: 0px;
 }
-/* ヘッダ */
+/* ヘッダ/フッタ */
 header {
     position: absolute;
     width: 100%;
@@ -31,6 +31,9 @@ header {
     text-decoration: none;
     font-weight: 600;
     color: #EDEAE9;
+}
+.copyright {
+    font-size: 14px;
 }
 /* コンテンツ全体 */
 main {

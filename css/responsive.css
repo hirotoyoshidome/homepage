@@ -71,6 +71,10 @@
     .brochures_select {
         font-size: 10px;
     }
+    .brochures_submit {
+        width: 150px;
+        height: 35px;
+    }
     .members_img {
         width: 100px;
         height: 100px;
@@ -92,5 +96,9 @@
     }
     .content_recruits_occupation_caution {
         font-size: 12px;
+    }
+    .contacts_submit {
+        width: 150px;
+        height: 35px;
     }
 }
