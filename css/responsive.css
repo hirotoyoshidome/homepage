@@ -6,6 +6,10 @@
     .responsive_none {
         display: none;
     }
+    .header_logo {
+        width: 80px;
+        height: 80px;
+    }
     .section_title {
         font-size: 32px;
     }
@@ -26,8 +30,8 @@
         font-size: 11px;
     }
     .members_img {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
     }
     .content_members_img_block {
         margin: 0 15px;
@@ -51,6 +55,10 @@
 @media screen and (max-width:480px){
     .responsive_none {
         display: none;
+    }
+    .header_logo {
+        width: 55px;
+        height: 55px;
     }
     .section_title {
         font-size: 30px;

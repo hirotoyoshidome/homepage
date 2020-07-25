@@ -35,6 +35,10 @@ header {
 .copyright {
     font-size: 14px;
 }
+.header_logo {
+    width: 100px;
+    height: 100px;
+}
 /* コンテンツ全体 */
 main {
     width: 100vw;
