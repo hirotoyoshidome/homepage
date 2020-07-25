@@ -155,6 +155,9 @@ main {
 	transition: 0.4s;
 	background-color: #008000;
 }
+.contacts_input_text ~ .focus_line_textarea {
+	bottom: 4px;
+}
 .brochures_input_text ~ .focus_line {
 	position: absolute;
 	bottom: 0;
