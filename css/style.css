@@ -155,9 +155,6 @@ main {
 	transition: 0.4s;
 	background-color: #008000;
 }
-.contacts_input_text ~ .focus_line_textarea {
-	bottom: 4px;
-}
 .brochures_input_text ~ .focus_line {
 	position: absolute;
 	bottom: 0;
@@ -166,6 +163,12 @@ main {
 	height: 2px;
 	transition: 0.4s;
 	background-color: #008000;
+}
+.contacts_input_text ~ .focus_line_textarea {
+	bottom: 4px;
+}
+.brochures_input_text ~ .focus_line_textarea {
+	bottom: 4px;
 }
 .contacts_input_text:focus ~ .focus_line,.contacts_form.contacts_input_text ~ .focus_line {
 	width: 100%;
