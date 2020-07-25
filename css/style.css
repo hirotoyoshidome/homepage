@@ -257,9 +257,10 @@ main {
 }
 .content_top_slide_child{
     max-height: 100vh;
+    width: 100%;
 }
 .child_img {
-    height: 100%;
+    min-width: 100vw;
 }
 .child_word {
     position: absolute;
@@ -274,7 +275,7 @@ main {
 }
 /* サービス */
 .content_services {
-    height: 150vh;
+    height: 180vh;
     background-color: rgba(220, 220, 220, 0.3);
     padding-top: 30px;
 }
@@ -304,6 +305,7 @@ main {
     width: 90%;
     margin: 0px auto;
     font-size: 17px;
+    line-height: 1.8em;
 }
 /* 資料請求モーダル */
 .modal {
