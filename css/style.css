@@ -337,6 +337,34 @@ main {
     width: 60%;
     height: 100%;
 }
+.modal_close_button {
+    display: inline-block;
+	width: 25px;
+	height: 25px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+	border: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.modal_close_button span::before,
+.modal_close_button span::after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 84%;
+	height: 16%;
+	margin: -8% 0 0 -42%;
+	background: #000000;
+}
+.modal_close_button span::before {
+	transform: rotate(-45deg);
+}
+.modal_close_button span::after {
+	transform: rotate(45deg);
+}
 /* 資料請求 */
 .content_brochures_form {
     width: 80%;
