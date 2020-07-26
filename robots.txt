@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://tamagasa.com/sitemap.xml
