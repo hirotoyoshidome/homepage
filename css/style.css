@@ -279,6 +279,48 @@ main {
     word-wrap: normal;
     z-index: 100;
 }
+/* ニュース */
+.content_news {
+    width: 80%;
+    margin: 30px auto;
+}
+.content_news_contents {
+    margin: 10px auto;
+}
+.content_news_flex {
+    margin: 20px auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.news_block {
+    margin: 0px 30px;
+}
+.news_date {
+    padding: 0.3em 0.7em;
+    font-weight: 800;
+    border-top: solid 5px #008000;
+    border-bottom: solid 5px #008000;
+}
+.news_genre {
+    font-weight: 800;
+    padding: 0.3em 0.7em;
+    background: #FFFFFF;
+    border: solid 3px #008000;
+    border-radius: 10px;
+}
+.news_content {
+    padding: 0.3em 0.7em;
+    font-weight: 800;
+}
+.news_link {
+    text-decoration: none;
+    color: blue;
+}
+.hr_separate {
+    width: 70%;
+}
 /* サービス */
 .content_services {
     min-height: 100vh;
