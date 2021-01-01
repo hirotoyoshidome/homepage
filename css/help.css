@@ -126,9 +126,18 @@ input {
     border-radius: 6px 6px 0 0;
     padding: 10px;
     background-color: #faeac5;
+    font-weight: 800;
 }
 .help__contents--card--answer {
     border-radius: 0 0 6px 6px;
     padding: 10px;
     background-color: #d3ebf7;
+    font-weight: 500;
+}
+.help__contents--card--answer > a {
+    color: #008000;
+}
+.help__contents--card--answer > a:hover {
+    font-weight: 800;
+    color: #4c7355;
 }
