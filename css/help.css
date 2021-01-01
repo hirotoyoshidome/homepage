@@ -131,7 +131,7 @@ input {
 .help__contents--card--answer {
     border-radius: 0 0 6px 6px;
     padding: 10px;
-    background-color: #d3ebf7;
+    background-color: #fff;
     font-weight: 500;
 }
 .help__contents--card--answer > a {
