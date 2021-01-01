@@ -101,3 +101,34 @@ input {
 .footer__link--anchor:hover {
     color: #1a4459 !important;
 }
+
+/* ヘルプ */
+.help__head {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 30px auto;
+}
+.help__line {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid #008000 2px;
+}
+.help__contents {
+    width: 80vw;
+    margin: 40px auto;
+}
+.help__contents--card {
+    margin: 30px 0;
+    box-shadow: 1px 1px 5px #95acb7;
+}
+.help__contents--card--question {
+    border-radius: 6px 6px 0 0;
+    padding: 10px;
+    background-color: #faeac5;
+}
+.help__contents--card--answer {
+    border-radius: 0 0 6px 6px;
+    padding: 10px;
+    background-color: #d3ebf7;
+}
