@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'YuGothic',
+        'Yu Gothic', 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', sans-serif;
+}
+main {
+    min-height: 85vh;
+}
+*:focus {
+    outline: none;
+}
+a {
+    color: #1a4459;
+    transition: 0.3s;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #1a4459;
+}
+input[type='submit'],
+input[type='button'],
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+select,
+input,
+textarea,
+button {
+    vertical-align: middle;
+    position: relative;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'YuGothic',
+        'Yu Gothic', 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', sans-serif;
+}
+input {
+    line-height: 15px;
+}
+
+/* ヘッダ */
+.header__contents {
+    display: flex;
+    justify-content: center;
+    background: #4c7355;
+    height: 50px;
+}
+.header__logo {
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: 3px;
+    z-index: 100;
+}
+.header__logo--img {
+    width: 55px;
+}
+
+/* フッタ */
+.footer__contents {
+    display: flex;
+    background-color: #4c7355;
+    width: 100%;
+}
+.footer__logo {
+    margin: 10px 50px 10px 100px;
+    height: 50px;
+}
+.footer__copyright {
+    color: #faeac5;
+    background-color: #4c7355;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.footer__link {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.footer__link--block {
+    margin: 0 30px;
+}
+.footer__link--anchor {
+    font-size: 16px;
+    color: #faeac5 !important;
+}
+.footer__link--anchor:hover {
+    color: #1a4459 !important;
+}
+
+/* ヘルプ */
+.help__head {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 30px auto;
+}
+.help__line {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid #008000 2px;
+}
+.help__contents {
+    width: 80vw;
+    margin: 40px auto;
+}
+.help__contents--card {
+    margin: 30px 0;
+    box-shadow: 1px 1px 5px #95acb7;
+}
+.help__contents--card--question {
+    border-radius: 6px 6px 0 0;
+    padding: 10px;
+    background-color: #faeac5;
+    font-weight: 800;
+}
+.help__contents--card--answer {
+    border-radius: 0 0 6px 6px;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: 500;
+}
+.help__contents--card--answer > a {
+    color: #008000;
+}
+.help__contents--card--answer > a:hover {
+    font-weight: 800;
+    color: #4c7355;
+}
+.help__other {
+    width: 80vw;
+    margin: 60px auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* タブレット */
+@media screen and (min-width: 600px) and (max-width: 959px) {
+    .footer__logo {
+        margin: 10px 50px 10px 70px;
+    }
+    .footer__link {
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+    .footer__link--block {
+        margin: 0 10px;
+    }
+    .footer__link--anchor {
+        font-size: 14px;
+    }
+}
+
+/* スマホ */
+@media screen and (max-width: 599px) {
+    .header__logo {
+        margin-left: 6px;
+    }
+    .header__logo--img {
+        width: 40px;
+    }
+    .footer__logo {
+        margin: 10px 20px 10px 30px;
+    }
+    .footer__link {
+        display: block;
+        margin-left: 2%;
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .footer__link--block {
+        margin: 0 5px;
+    }
+    .footer__link--anchor {
+        font-size: 12px;
+    }
+}
