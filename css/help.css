@@ -147,3 +147,45 @@ input {
     text-align: center;
     font-weight: 900;
 }
+
+/* タブレット */
+@media screen and (min-width: 600px) and (max-width: 959px) {
+    .footer__logo {
+        margin: 10px 50px 10px 70px;
+    }
+    .footer__link {
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+    .footer__link--block {
+        margin: 0 10px;
+    }
+    .footer__link--anchor {
+        font-size: 14px;
+    }
+}
+
+/* スマホ */
+@media screen and (max-width: 599px) {
+    .header__logo {
+        margin-left: 6px;
+    }
+    .header__logo--img {
+        width: 40px;
+    }
+    .footer__logo {
+        margin: 10px 20px 10px 30px;
+    }
+    .footer__link {
+        display: block;
+        margin-left: 2%;
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .footer__link--block {
+        margin: 0 5px;
+    }
+    .footer__link--anchor {
+        font-size: 12px;
+    }
+}
