@@ -71,12 +71,10 @@ $("#contact_submit").click(function(){
     // バリデーションをクリア
     $("#error_email").empty();
     $("#error_name").empty();
-    $("#error_company").empty();
     $("#error_content").empty();
 
     var email = $("#email").val();
     var name = $("#name").val();
-    var company = $("#company").val();
     var content = $("#content").val();
     var error = {};
     // 必須チェック
@@ -85,9 +83,6 @@ $("#contact_submit").click(function(){
     }
     if (!name) {
         error["name"] = "氏名を入力してください";
-    }
-    if (!company) {
-        error["company"] = "会社名を入力してください";
     }
     if (!content) {
         error["content"] = "お問い合わせ内容を入力してください";
@@ -106,9 +101,6 @@ $("#contact_submit").click(function(){
         }
         if (error["name"]) {
             $("#error_name").append(error["name"]);
-        }
-        if (error["company"]) {
-            $("#error_company").append(error["company"]);
         }
         if (error["content"]) {
             $("#error_content").append(error["content"]);
